@@ -1,0 +1,121 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: arial;
+    height: 100%;
+    background: white;
+  }
+  a {
+    all: none;
+    text-decoration: none;
+  }
+  a:link {
+    color:darkgrey;
+  }
+  a:hover {
+    color: grey;
+    text-decoration: underline;
+  }
+  a:visited{
+    color: grey;
+  }
+  .top-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display:inline;
+    padding: 0px 0px 0px 10px;
+    font-size: 14px;
+    text-align: center;
+    color: grey;
+  }
+  .rt-nav{
+    float: right;
+  }
+  .center{
+    display: block;
+    text-align: center;
+    font-size: small;
+    padding-bottom: 60px;
+  }
+  .img-google {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top: 100px;
+    padding-bottom:50px;
+    height: 92px;
+    width: 272px; 
+  }
+  .form{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+  }
+  .img-search {
+    display: inline;
+    float: left;
+    padding: 0;
+    height: 5px;
+    opacity: 0.4;
+    border-radius: 10px;
+  }
+  .sr-box{
+    border: 0.1px lightgrey solid;
+    border-radius: 19px;
+    padding: 5px 50px 5px 50px;
+    margin: 0px 0px 25px 0px;
+    color: rgba (0,0,0,.87);
+    font-size: 16px;
+    height: 34px !important;
+  }
+  .si-button{
+    background: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 36px;
+    width: 60px;
+    font-family: arial;
+    font-size: 13px;
+    margin: 0px 0px 25px 0px;
+  }
+  input[type=text]{
+    border:none;
+    width: 250px;
+    padding: 0;
+    margin: 0;
+  }
+  input[type=submit] {
+    display: inline;
+    text-align: center;
+    height: 36px;
+    width-min: 54px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    padding: 0px 15px 0px 15px;
+    margin: 10px 5px, 10px 5px;
+  }
+  footer{
+    background-color: #f2f2f2;
+    color: #5f6368;
+    margin: 100px 0px 0px 0px;
+    padding: 8px 0 0 0;
+    height: 40px;
+    width: 100%;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+  }
+  .lf-ft{
+    padding: 10px;
+  }
+  .rt-ft{
+    float: right;
+    padding: 0px 10px 0px 10px;
+  }
